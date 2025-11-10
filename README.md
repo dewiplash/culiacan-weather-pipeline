@@ -18,14 +18,15 @@ There are two ways of executing the entire process:
 - Run each script separately in order (extract -> transform -> load_to_sql).
 - Run the script "main_pipeline.py", which automatically executes the three other. This way there's necessary only one execution for the entire process to run entirely.
 
-NOTE: If willing to execute, make sure not to alter the folder structure, since the scripts are written considering that specific structure.
+NOTE: If willing to execute, make sure not to alter the folder structure, since the scripts are written considering that specific structure.\
 NOTE: For the API call, it is necessary to place your own OpenWeather API Key in the .env file.
 
 ## Process flow-diagram
-The following visual displays a more-detailed representation of the entire process so it can be more understandable.
+The following visual displays a more-detailed representation of the entire process so it can be more understandable. It focuses on the data flow from its fetch to its inserting into the database.
+
 ![flow_diagram](visuals/flow_diagram.png)
 
 ## Example result
-The following image displays all the database records after executing the entire process a couple of times at different hours and days.
+The following image displays all the database records as seen from SQL Server after executing the entire process a couple of times at different hours and days.
 
 ![example](visuals/example.png)
