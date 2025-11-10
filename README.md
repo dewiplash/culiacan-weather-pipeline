@@ -20,7 +20,8 @@ There are two ways of executing the entire process:
 
 NOTE: If willing to execute, make sure not to alter the folder structure, since the scripts are written considering that specific structure.
 
-## The following visual displays a more-detailed representation of the entire process so it can be more understandable.
+## Process flow-diagram
+The following visual displays a more-detailed representation of the entire process so it can be more understandable.
 ![flow_diagram](visuals/flow_diagram.png)
 
 ## Example result
