@@ -19,6 +19,7 @@ There are two ways of executing the entire process:
 - Run the script "main_pipeline.py", which automatically executes the three other. This way there's necessary only one execution for the entire process to run entirely.
 
 NOTE: If willing to execute, make sure not to alter the folder structure, since the scripts are written considering that specific structure.
+NOTE: For the API call, it is necessary to place your own OpenWeather API Key in the .env file.
 
 ## Process flow-diagram
 The following visual displays a more-detailed representation of the entire process so it can be more understandable.
