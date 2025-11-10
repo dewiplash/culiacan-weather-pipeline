@@ -29,7 +29,7 @@ There are two ways of executing the entire process:
 - Run each script separately in order (extract -> transform -> load_to_sql).
 - Run the script "main_pipeline.py", which automatically executes the three other. This way there's necessary only one execution for the entire process to run entirely.
 
-Ideally, this should be programmed to execute periodically. Which can be donde with Windows Task Manager or Apache Airflow.
+Ideally, this should be programmed to execute periodically. Which can be donde with Windows Task Scheduler or Apache Airflow.
 
 NOTE: If willing to execute, make sure not to alter the folder structure, since the scripts are written considering that specific structure.\
 NOTE: For the API call, it is necessary to place your own OpenWeather API Key in the .env file.
