@@ -15,7 +15,7 @@ Each of the steps of the process is stored in a Python script, as the previous t
 
 ## Execution
 There are two ways of executing the entire process:
-- Run each script separately in order.
+- Run each script separately in order (extract -> transform -> load_to_sql).
 - Run the script "main_pipeline.py", which automatically executes the three other. This way there's necessary only one execution for the entire process to run entirely.
 
 NOTE: If willing to execute, make sure not to alter the folder structure, since the scripts are written considering that specific structure.
